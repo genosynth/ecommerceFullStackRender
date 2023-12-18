@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77d91aa9.css",
+    "main.js": "/static/js/main.b5421941.js",
+    "static/media/opsix.png": "/static/media/opsix.1d52a3e20a7196b36e98.png",
+    "static/media/deepmind.png": "/static/media/deepmind.277feb71b804d64516ed.png",
+    "static/media/jupiter.png": "/static/media/jupiter.72ac5e970c437d652458.png",
+    "static/media/juno.jpg": "/static/media/juno.0ac03e5033d525968652.jpg",
+    "static/media/polyd.jpg": "/static/media/polyd.4dfae9674527b62856d0.jpg",
+    "static/media/home.jpg": "/static/media/home.f1d138dd43b6e3bf93ee.jpg",
+    "static/media/polybrute.png": "/static/media/polybrute.063ba9cc447c1e086bd0.png",
+    "static/media/minilogue.png": "/static/media/minilogue.e634cf8fb4e6f5a42e56.png",
+    "static/media/kurzweil2700.jpg": "/static/media/kurzweil2700.cfd15cf5e2512e7d551e.jpg",
+    "index.html": "/index.html",
+    "main.77d91aa9.css.map": "/static/css/main.77d91aa9.css.map",
+    "main.b5421941.js.map": "/static/js/main.b5421941.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77d91aa9.css",
+    "static/js/main.b5421941.js"
+  ]
+}

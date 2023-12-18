@@ -1,0 +1,72 @@
+.container {
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+   align-items: center;
+   border-radius: 5px;
+    padding-bottom: 2%;
+}
+
+.container button {
+    width:25%;
+}
+.container div {
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.container span {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1550px) {
+    .container {
+        padding-top: 15%;
+    }
+   
+  } 
+
+  @media only screen and (max-width: 1200px) {
+    .container {
+        padding-top: 20%;
+    }
+   
+  } 
+
+
+
+  @media only screen and (max-width: 1000px) {
+    .container {
+        padding-top: 30%;
+    }
+   
+  } 
+
+  @media only screen and (max-width: 700px) {
+    .container {
+        padding-top: 45%;
+    }
+   
+  } 
+
+  @media only screen and (max-width: 650px) {
+    .container {
+        padding-top: 55%;
+    }
+   
+  } 
+
+  @media only screen and (max-width: 600px) {
+    .container {
+        padding-top: 65%;
+    }
+   
+  } 
+
+  @media only screen and (max-width: 550px) {
+    .container {
+        padding-top: 80%;
+    }
+   
+  } 

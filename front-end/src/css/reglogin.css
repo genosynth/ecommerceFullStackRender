@@ -1,0 +1,47 @@
+.register, .login{
+    padding-top: 7%;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10%;
+  
+
+}
+
+.reg-form, .login-form {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    border: solid 2px black;
+    align-items: center;
+    margin-left: 25%;      
+       
+   }
+
+.reg-form button, .login-form button {
+    width:20%;
+    
+    
+}
+
+
+@media only screen and (max-width: 1450px) {
+    .register, .login {
+        padding-top: 15%;
+    }
+   
+  } 
+
+  @media only screen and (max-width: 690px) {
+    .register, .login {
+        padding-top: 40%;
+    }
+   
+  } 
+
+  @media only screen and (max-width: 600px) {
+    .register, .login {
+        padding-top: 65%;
+    }
+   
+  } 

@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Courier New', monospace;
+     color: black;
+    font-size: 40px
+  }
+  
+  nav {
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #cfd8dc;   
+   
+    position: fixed;      
+    width: 100%;      
+    z-index: 1;
+   
+   
+    
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none; 
+    
+  }
+  
+  nav li {
+    padding-left: 4rem; 
+  }
+  
+  nav a {
+    
+    text-decoration: none;
+    color: black;
+    -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-size: 25px;
+  font-weight: bold;
+  }
+
+  nav a:hover {
+    
+    color: #2691bb;    
+    
+  }
+
+  nav h1 {
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+   /* 
+    Extra small devices (phones, 600px and down) 
+  */
+  @media only screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+    nav ul {
+      flex-direction: column;
+      padding-top: 0.5rem;
+    }
+    nav li {
+      padding: 0rem 0;
+    }
+  } 

@@ -1,0 +1,78 @@
+.card {
+    border: solid 1px;
+    border-radius: 0.1cm;
+    box-shadow: 3cm;
+    width:fit-content;
+    padding: 1%;
+    font-size: medium;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+     
+    
+    
+    
+}
+
+.container-out {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.card:hover {
+    background-color: lightgrey;
+}
+
+
+.my-button {
+    border: none;
+    border-radius: 5px;
+    padding: 8%;
+    background-color: rgba(0, 95, 219, 0.712);
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 100px;
+}
+
+.my-button:hover {
+    background-color: rgb(0, 81, 255);
+}
+
+.shop {
+    padding-top: 7%;
+  
+   
+}
+
+
+@media only screen and (max-width: 1750px) {
+    .shop {
+        padding-top: 13%;
+    }
+   
+  } 
+
+  @media only screen and (max-width: 1250px) {
+    .shop {
+        padding-top: 18%;
+    }
+   
+  } 
+
+  @media only screen and (max-width: 950px) {
+    .shop {
+        padding-top: 35%;
+    }
+   
+  } 
+
+
+@media only screen and (max-width: 600px) {
+    .shop {
+        padding-top: 85%;
+    }
+   
+  } 
